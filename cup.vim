@@ -6,3 +6,7 @@
 if exists("b:current_syntax")
     finish
 endif
+
+syn keyword basicLanguageKeywords this type tag mod use def sub var new as has echo
+
+let b:current_syntax = "cup"
